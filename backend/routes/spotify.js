@@ -45,9 +45,10 @@ router.post('/search', clerkMiddleware, async (req, res) => {
       name: track.name,
       artist: track.artists[0].name,
       album: track.album.name,
-      duration: track.duration_ms,
+      duration_ms: track.duration_ms,
       imageUrl: track.album.images[0]?.url,
-      previewUrl: track.preview_url
+      preview_url: track.preview_url,
+      external_urls: track.external_urls
     }));
     
     res.json({ tracks });

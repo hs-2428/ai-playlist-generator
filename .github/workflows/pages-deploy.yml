@@ -13,6 +13,7 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: github-pages
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -34,8 +35,13 @@ jobs:
           cd frontend
           PUBLIC_URL=/ai-playlist-generator npm run build
           
+      - name: Add .nojekyll
+        run: touch ./frontend/build/.nojekyll
+          
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./frontend/build
+          force_orphan: true

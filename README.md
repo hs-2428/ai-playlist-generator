@@ -1,5 +1,7 @@
 # 🎵 AI Playlist Generator
 
+## 🚀 **[✨ Try the Live App →](https://aiplaygen-harsh-2024.surge.sh)**
+
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Surge.sh-brightgreen)](https://aiplaygen-harsh-2024.surge.sh)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 

@@ -1,6 +1,5 @@
 # 🎵 AI Playlist Generator
 
-[![Deploy Status](https://github.com/hs-2428/ai-playlist-generator/workflows/Deploy%20React%20App%20to%20GitHub%20Pages/badge.svg)](https://github.com/hs-2428/ai-playlist-generator/actions)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Surge.sh-brightgreen)](https://aiplaygen-harsh-2024.surge.sh)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -45,7 +44,6 @@ An intelligent music playlist generator powered by AI that creates personalized 
 |----------|-----|--------|
 | **Frontend** | [🔗 Surge.sh](https://aiplaygen-harsh-2024.surge.sh) | ✅ Active |
 | **Backend API** | [🔗 Render](https://ai-playlist-backend-q3gw.onrender.com) | ✅ Active |
-| **GitHub Pages** | [🔗 GitHub Pages](https://hs-2428.github.io/ai-playlist-generator) | ✅ Active |
 
 ## 🛠️ Technology Stack
 

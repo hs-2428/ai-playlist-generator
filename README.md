@@ -45,7 +45,7 @@ An intelligent music playlist generator powered by AI that creates personalized 
 | Platform | URL | Status |
 |----------|-----|--------|
 | **Frontend** | [🔗 Surge.sh](https://aiplaygen-harsh-2024.surge.sh) | ✅ Active |
-| **Backend API** | [🔗 Render](https://ai-playlist-backend-q3gw.onrender.com) | ✅ Active |
+| **Backend API** | [🔗 Render](https://ai-playlist-generator-la8z.onrender.com) | ✅ Active |
 
 ## 🛠️ Technology Stack
 
